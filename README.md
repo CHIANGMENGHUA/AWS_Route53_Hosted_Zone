@@ -39,15 +39,13 @@
 
 > Done
 
-- Make .sh file exacutable(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/
-"` directory) :
+- Make .sh file exacutable(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/"` directory) :
 ```bash
 chmod +x create_hosted_zone.sh
 ```
 
 
-## 1. Create .env file(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/
-"` directory)
+## 1. Create .env file(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/"` directory)
 
 ```c
 my_hosted_zone_name="<Your-Hosted-Zone-Name>"
@@ -55,8 +53,7 @@ my_hosted_zone_name="<Your-Hosted-Zone-Name>"
 
 - Replace `<Your-Hosted-Zone-Name>` to your desire hosted zone name.
 
-## 2. Use terminal(in `"AWS_Route53_Hosted_Zone_with_DNS_Records
-/"` directory) to create Hosted Zone by following command:
+## 2. Use terminal(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/"` directory) to create Hosted Zone by following command:
 
 ```bash
 ./create_hosted_zone.sh
