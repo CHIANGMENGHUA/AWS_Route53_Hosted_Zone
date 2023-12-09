@@ -1,5 +1,42 @@
 # Create AWS Route53 Hosted Zone with your own Domain and add new DNS Records
 
+## Prerequisites
+
+- Your own Domain
+
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+### Access key:
+
+1. Use AWS console to get into
+
+   > IAM / Users / `<Your-Account>` / Security credentials / Access keys > `Create access key`
+
+   - Command Line Interface (CLI)
+
+     > Next
+
+   - Create access key
+
+   > Create
+
+   - Save Access keys as a .CSV file
+
+2. Use terminal to login AWS CLI using Access key by following commands:
+
+   ```bash
+   aws configure
+   # AWS Access Key ID [...]: <Your-Access-key-ID>
+   # AWS Secret Access Key [...]: <Your-Secret-access-key>
+   # Default region name [...]: <Your-Cluster-Region>
+   # Default output format [...]: <json/yaml/...>
+
+   aws sts get-caller-identity
+   # Verify your AWS CLI account
+   ```
+
+> Done
+
 ## 1. Create .env file in the directory
 
 ```c
