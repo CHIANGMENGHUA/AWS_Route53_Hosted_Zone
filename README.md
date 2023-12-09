@@ -1,4 +1,4 @@
-# Create AWS Route53 Hosted Zone with your own Domain
+# Create AWS Route53 Hosted Zone with your own Domain and add new DNS Records
 
 ## 1. Create .env file in the directory
 
