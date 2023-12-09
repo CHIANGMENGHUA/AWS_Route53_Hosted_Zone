@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+- AWS Account
+
 - Your own Domain
 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
@@ -36,6 +38,13 @@
    ```
 
 > Done
+
+- Make .sh file exacutable(in `"AWS_Route53_Hosted_Zone_with_DNS_Records
+"` directory) :
+```bash
+chmod +x create_hosted_zone.sh
+```
+
 
 ## 1. Create .env file in the directory
 
