@@ -55,8 +55,8 @@ my_hosted_zone_name="<Your-Hosted-Zone-Name>"
 
 - Replace `<Your-Hosted-Zone-Name>` to your desire hosted zone name.
 
-## 2. Use terminal(in `"AWS_Route53_Hosted_Zone_with_DNS_Records/
-"` directory) to create Hosted Zone by following command:
+## 2. Use terminal(in `"AWS_Route53_Hosted_Zone_with_DNS_Records
+/"` directory) to create Hosted Zone by following command:
 
 ```bash
 ./create_hosted_zone.sh
