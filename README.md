@@ -8,7 +8,7 @@
 
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
-### Access key:
+### AWS Access key:
 
 1. Use AWS console to get into
 
